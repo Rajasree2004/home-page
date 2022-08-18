@@ -1,0 +1,9 @@
+p-0 means remove padding
+container-fluid means 100% width
+mr-auto means margin right auto
+text-center --bootstrap class -- center text
+
+col-md-7 ---- does not separate the columns, but uses the space
+
+md - medium size of devices
+sm - small size of devices
