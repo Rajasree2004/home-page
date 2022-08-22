@@ -7,3 +7,52 @@ col-md-7 ---- does not separate the columns, but uses the space
 
 md - medium size of devices
 sm - small size of devices
+
+text-left = align text to left
+
+card(built-in) is different form cards(custom)
+
+
+px - padding X
+py - padding Y
+pr - padding r
+pt - padding top
+pl - padding left
+
+mb-margin bottom
+
+shadow-lg -- bootstrap cls to add shadow to html element
+btn - button cls
+btn-light - for light color
+btn-dark  - for dark color
+fa-3x  - increase size 3x
+
+bootstrap class:
+
+d-flex
+flex-wrap   
+flex-row
+text-right
+text-center
+text-left
+card
+btn-light
+btn-dark
+container-fluid
+px
+py
+mb
+mr
+p-0
+justify-content-center
+pr
+pt
+text-secondary  -  change text colour
+text-decoration-none  -  remove default vorder from anchor tag
+text-muted - light grey color
+
+
+CSS
+
+overflow x - hides extra spacing 
+em, rem, vmin - relative units in css
