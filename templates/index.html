@@ -15,7 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Mine</title>
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
 </head>
 
 <body>
@@ -68,7 +74,7 @@
                         WELCOME TO DR ~DOPE!
                     </h6>
                     <h1>
-                        WE SAY NO TO DOPE!
+                        WE SAY NOPE TO DOPE!
                     </h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aut libero dicta unde vitae
                         praesentium, est sequi itaque cupiditate incidunt! Eligendi ex adipisci sed, dicta repellendus
@@ -91,11 +97,105 @@
     </header>
     <main>
         <section class="section-1">
-            <div class="container text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div
+                        id="carouselDarkVariant"
+                        class="carousel slide carousel-fade carousel-dark relative"
+                        data-bs-ride="carousel"
+                      >
+                        <!-- Indicators -->
+                        <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
+                          <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                          ></button>
+                          <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 1"
+                          ></button>
+                          <button
+                            data-bs-target="#carouselDarkVariant"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 1"
+                          ></button>
+                        </div>
+                      
+                        <!-- Inner -->
+                        <div class="carousel-inner relative w-full overflow-hidden">
+                          <!-- Single item -->
+                          <div class="carousel-item active relative float-left w-full">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(19).webp"
+                              class="block w-full"
+                              alt="Motorbike Smoke"
+                            />
+                            <div class="carousel-caption hidden md:block absolute text-center">
+                              <h5 class="text-xl">First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                      
+                          <!-- Single item -->
+                          <div class="carousel-item relative float-left w-full">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(35).webp"
+                              class="block w-full"
+                              alt="Mountaintop"
+                            />
+                            <div class="carousel-caption hidden md:block absolute text-center">
+                              <h5 class="text-xl">Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                      
+                          <!-- Single item -->
+                          <div class="carousel-item relative float-left w-full">
+                            <img
+                              src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(40).webp"
+                              class="block w-full"
+                              alt="Woman Reading a Book"
+                            />
+                            <div class="carousel-caption hidden md:block absolute text-center">
+                              <h5 class="text-xl">Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Inner -->
+                      
+                        <!-- Controls -->
+                        <button
+                          class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
+                          type="button"
+                          data-bs-target="#carouselDarkVariant"
+                          data-bs-slide="prev"
+                        >
+                          <span class="carousel-control-prev-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button
+                          class="carousel-control-next absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline right-0"
+                          type="button"
+                          data-bs-target="#carouselDarkVariant"
+                          data-bs-slide="next"
+                        >
+                          <span class="carousel-control-next-icon inline-block bg-no-repeat" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <!-- <div class="container text-center">
                 <div class="row">
                     <div class="col-md-6 col-12">
                         <div class="pray">
-                            <img src="../static/images/sp.png" alt="com">
+                            <img src="../static/images/cyc.jpeg" alt="com">
                         </div>
                     </div>
                     <div class="col-md-6 col-12">
@@ -118,7 +218,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
 
         </section>
         <section class="section-2 container-fluid p-0">
@@ -159,17 +260,17 @@
                 </div>
             </div>
 
-            <div class="purchase text-center">
+            <!-- <div class="purchase text-center">
                 <h1>Choose your plan</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <div class="cards">
                     <div class="d-flex flex-row justify-content-center flex-wrap">
 
 
-                        <!-- CARD 1 -->
+                         CARD 1 -->
 
 
-                        <div class="card">
+            <!-- <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">FREE</h5>
@@ -182,12 +283,12 @@
                                     <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <!-- CARD 2 -->
+            <!-- CARD 2 -->
 
 
-                        <div class="card">
+            <!-- <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">MONTHLY PRO</h5>
@@ -200,12 +301,12 @@
                                     <a href="#" class="btn btn-dark px-5 py-2 primary-btn mb-5">Purchase</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <!-- CARD 3 -->
+            <!-- CARD 3 -->
 
 
-                        <div class="card">
+            <!-- <div class="card">
                             <div class="card-body">
                                 <div class="title">
                                     <h5 class="card-title">YEARLY PRO</h5>
@@ -223,69 +324,90 @@
 
                 </div>
             </div>
-        </section>
+        </section>  -->
 
 
-        <secton class="section-3 container-fluid p-0 text-center">
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <h1>Download Our App for ALL Devices</h1>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <section class="section-3 container-fluid p-0 text-center">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <h1>Download Our App for ALL Devices</h1>
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                </div>
-            </div>
-            <div class="platform row">
-                <div class="col-md-6 col-sm-12 text-right">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fa-solid fa-desktop fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">
-                                    Desktop
-                                </h3>
-                                <p class="p-0 m-0">
-                                    On website
-                                </p>
+                    </div>
+
+                    <div class="platform row">
+                        <div class="col-md-6 col-sm-12 text-right">
+                            <div class="desktop shadow-lg">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-desktop fa-3x py-2 pr-3"></i>
+                                    <div class="text text-left">
+                                        <h3 class="pt-1 m-0">
+                                            Desktop
+                                        </h3>
+                                        <p class="p-0 m-0">
+                                            On website
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6 col-sm-12 text-left">
+                            <div class="desktop shadow-lg">
+                                <div class="d-flex flex-row justify-content-center">
+                                    <i class="fa-solid fa-mobile-screen fa-3x py-2 pr-3"></i>
+                                    <div class="text text-left">
+                                        <h3 class="pt-1 m-0">
+                                            Mobile
+                                        </h3>
+                                        <p class="p-0 m-0">
+                                            Play Store
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+            </section>
 
-
+            <section class="section-4">
+                <div class="container text-center">
+                    <h1 class="text-dark">
+                        Feedback from Users
+                    </h1>
+                    <p class="text-secondary">
+                        Lorem ipsum dolor sit amet.
+                    </p>
                 </div>
-                <div class="col-md-6 col-sm-12 text-left">
-                    <div class="desktop shadow-lg">
-                        <div class="d-flex flex-row justify-content-center">
-                            <i class="fa-solid fa-mobile-screen fa-3x py-2 pr-3"></i>
-                            <div class="text text-left">
-                                <h3 class="pt-1 m-0">
-                                    Mobile
-                                </h3>
-                                <p class="p-0 m-0">
-                                    Play Store
+                <div class="team row">
+                    <div class="col-md-4
+                 text-center">
+                        <div class="card  d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                                <img src="../static/images/bg.jpg"
+                                    class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Virat Kohli</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae,
+                                    veniam, illo dolor soluta assumenda
+                                    minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi
+                                    voluptas!
                                 </p>
+                                <p class="text-black">Indian Cricketer</p>
+                                <a href="#" class="text-secondary text-decoration-none">View More</a>
+
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </secton>
-
-        <section class="section-4">
-            <div class="container text-center">
-                <h1 class="text-dark">
-                    Feedback from Users
-                </h1>
-                <p class="text-secondary">
-                    Lorem ipsum dolor sit amet.
-                </p>
-            </div>
-            <div class="team row">
-                <div class="col-md-4 col-12 text-center">
+                    <!-- <div class="col-md-4 col-12 text-center"> -->
                     <!-- CARD 1 -->
 
-                    <div class="card mr-2 d-inline-block shadow-lg">
+                    <!-- <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
-                            <img src="../static/images/bg.jpg" alt="member" class="img-fluid border-radius p-4">
+                            <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">
@@ -301,17 +423,17 @@
                         </div>
                     </div>
 
-                </div>
-                <div class="col-md-4 col-12">
+                 </div> -->
+                    <!-- <div class="col-md-4 col-12"> -->
                     <!-- CAROUSEL START -->
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <!-- CARD 2 -->
+                    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner text-center">
+                            <div class="carousel-item active"> -->
+                    <!-- CARD 2 -->
 
-                                <div class="card mr-2 d-inline-block shadow-lg text-center">
+                    <!-- <div class="card mr-2 d-inline-block shadow-lg text-center">
                                     <div class="card-img-top">
-                                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle w-50 p-4">
+                                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">
@@ -327,12 +449,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <!-- CARD 3 -->
+                            <div class="carousel-item"> -->
+                    <!-- CARD 3 -->
 
-                                <div class="card mr-2 d-inline-block shadow">
+                    <!-- <div class="card mr-2 d-inline-block shadow text-center">
                                     <div class="card-img-top">
-                                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid border-radius w-50 p-4">
+                                        <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
                                     </div>
                                     <div class="card-body">
                                         <h3 class="card-title">
@@ -349,14 +471,81 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- CAROUSEL END -->
-                </div>
-                <div class="col-md-4 col-12 text-center">
+                    <!-- </div> -->
+                    <div class="col-md-4">
+                        <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                            <div class="carousel-inner text-center">
+                                <div class="carousel-item active">
+                                    <div class="card  d-inline-block shadow-lg text-center">
+                                        <div class="card-img-top">
+                                            <img src="../static/images/bg.jpg"
+                                                class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Mary Kom</h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                                recusandae, veniam, illo dolor soluta assumenda
+                                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                                                facilis quasi voluptas!
+                                            </p>
+                                            <p class="text-black">Boxer</p>
+                                            <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="card  d-inline-block shadow">
+                                        <div class="card-img-top">
+                                            <img src="../static/images/bg.jpg"
+                                                class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+
+                                        </div>
+                                        <div class="card-body">
+                                            <h3 class="card-title">Sania Mirza</h3>
+                                            <p class="card-text">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                                recusandae, veniam, illo dolor soluta assumenda
+                                                minima quia velit officia sit exercitationem nam ipsa, repellendus aut
+                                                facilis quasi voluptas!
+                                            </p>
+                                            <p class="text-black">Tennis Player</p>
+                                            <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4  text-center">
+                        <div class="card d-inline-block shadow-lg">
+                            <div class="card-img-top">
+                                <img src="../static/images/bg.jpg"
+                                    class="img-fluid border-radius mx-auto d-block p-4 rounded-circle car_1" alt="">
+                            </div>
+                            <div class="card-body">
+                                <h3 class="card-title">Sunil Chhetri</h3>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem
+                                    recusandae, veniam, illo dolor soluta assumenda
+                                    minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis
+                                    quasi voluptas!
+                                </p>
+                                <p class="text-black">Footballer</p>
+                                <a href="#" class="text-secondary text-decoration-none">View More</a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-4 col-12 text-center"> -->
                     <!-- CARD 4 -->
-                    <div class="card mr-2 d-inline-block shadow-lg">
+                    <!-- <div class="card mr-2 d-inline-block shadow-lg">
                         <div class="card-img-top">
-                            <img src="../static/images/bg.jpg" alt="member" class="round">
+                            <img src="../static/images/bg.jpg" alt="member" class="img-fluid rounded-circle car_1">
                         </div>
                         <div class="card-body">
                             <h3 class="card-title">
@@ -370,10 +559,11 @@
                                 International Boxer
                             </p>
                         </div>
-                    </div>
+                     </div>
+                       </div> -->
+
                 </div>
-            </div>
-        </section>
+            </section>
     </main>
     <footer>
         <div class="container-fluid p-0">
@@ -435,57 +625,57 @@
     </script>
     <script src="./main.js"></script>
     <script>
-    let nCount = selector => {
-        $(selector).each(function () {
-          $(this)
-            .animate({
-              Counter: $(this).text()
-            }, {
-              // A string or number determining how long the animation will run.
-              duration: 4000,
-              // A string indicating which easing function to use for the transition.
-              easing: "swing",
-              /**
-               * A function to be called for each animated property of each animated element. 
-               * This function provides an opportunity to
-               *  modify the Tween object to change the value of the property before it is set.
-               */
-              step: function (value) {
-                $(this).text(Math.ceil(value));
-              }
+        let nCount = selector => {
+            $(selector).each(function () {
+                $(this)
+                    .animate({
+                        Counter: $(this).text()
+                    }, {
+                        // A string or number determining how long the animation will run.
+                        duration: 4000,
+                        // A string indicating which easing function to use for the transition.
+                        easing: "swing",
+                        /**
+                         * A function to be called for each animated property of each animated element. 
+                         * This function provides an opportunity to
+                         *  modify the Tween object to change the value of the property before it is set.
+                         */
+                        step: function (value) {
+                            $(this).text(Math.ceil(value));
+                        }
+                    });
             });
+        };
+
+        let a = 0;
+        $(window).scroll(function () {
+            // The .offset() method allows us to retrieve the current position of an element  relative to the document
+            let oTop = $(".numbers").offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() >= oTop) {
+                a++;
+                nCount(".rect > h1");
+            }
         });
-      };
-      
-      let a = 0;
-      $(window).scroll(function () {
-        // The .offset() method allows us to retrieve the current position of an element  relative to the document
-        let oTop = $(".numbers").offset().top - window.innerHeight;
-        if (a == 0 && $(window).scrollTop() >= oTop) {
-          a++;
-          nCount(".rect > h1");
-        }
-      });
-      
-      
-      
-      /**
-       *
-       *  sticky navigation
-       *
-       */
-      
-      let navbar = $(".navbar");
-      
-      $(window).scroll(function () {
-        // get the complete hight of window
-        let oTop = $(".section-2").offset().top - window.innerHeight;
-        if ($(window).scrollTop() > oTop) {
-          navbar.addClass("sticky");
-        } else {
-          navbar.removeClass("sticky");
-        }
-      });
+
+
+
+        /**
+         *
+         *  sticky navigation
+         *
+         */
+
+        let navbar = $(".navbar");
+
+        $(window).scroll(function () {
+            // get the complete hight of window
+            let oTop = $(".section-2").offset().top - window.innerHeight;
+            if ($(window).scrollTop() > oTop) {
+                navbar.addClass("sticky");
+            } else {
+                navbar.removeClass("sticky");
+            }
+        });
     </script>
 </body>
 

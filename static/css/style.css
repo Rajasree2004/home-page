@@ -95,7 +95,8 @@ header .row .col-md-7{
 }
 
 header .row .col-md-5 img{
-    width: 90%;
+  height: 500px;
+  width: auto;
 }
 
 header .container .col-md-7 h6{
@@ -126,8 +127,9 @@ header .container .col-md-7 button{
 }
 
 .section-1 .row .col-md-6 .pray img{
-    opacity: 0.8;
-    width: 80%;
+    opacity: 0.9;
+    height: auto;
+    width: 500px;
     border-radius: 0.2em;
 }
 
@@ -138,11 +140,11 @@ header .container .col-md-7 button{
 .section-1 .row .col-md-6 .panel {
     position: absolute;
     top: 7vmin;
-    left: -18vmin;
+    left: -25vmin;
     background: white;
     border-radius: 3px;
     text-align: left;
-    padding: 13vmin 5vmin 20vmin 10vmin;
+    padding: 5vmin 5vmin 20vmin 5vmin;
     box-shadow: 0px 25px 42px rgb(0 0 0 / 20%);
     font-family: var(--Nunito);
     z-index: 1;
@@ -276,7 +278,7 @@ header .container .col-md-7 button{
   .section-3 section{
     height: 70vmin;
     margin-top: 15vmin;
-    background: linear-gradient(to bottom, #0072FF, #00C6FF);
+    background: var(--bggradient);
   }
   
   .section-3 .col-md-12 > h1 {
@@ -320,7 +322,7 @@ header .container .col-md-7 button{
   }
   
   .section-4 .card {
-    height: 500px;
+    height: 550px;
     width: 22em;
     margin-top: 10vmin;
   }
@@ -330,13 +332,17 @@ header .container .col-md-7 button{
   }
   
   .section-4 .card-body > a {
-    font-size: 1.5em;
+    font-size: 1em;
   }
   
-  .section-4 .carousel-item {
+  .section-4 .card-title{
+    font-size: 1.5rem;
+  }
+
+  /* .section-4 .carousel-item {
     padding-left: 3rem;
   }
-  
+   */
   .border-radius {
     border-radius: 50%;
     width: 50%;
@@ -352,6 +358,11 @@ header .container .col-md-7 button{
     color: #ff512f;
   }
   
+  .car_1{
+    /* padding: 2vmin 2vmin 2vmin 2vmin; */
+    width:60%;
+    height:200px;
+  }
   /* footer input {
     border: none !important;
   }
@@ -383,3 +394,8 @@ header .container .col-md-7 button{
     z-index: 9999;
     transition: all 1.5s ease;
   }
+
+/* .rounded-circle{
+  border-radius: 50%;
+} */
+
